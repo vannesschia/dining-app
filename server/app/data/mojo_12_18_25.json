@@ -1,0 +1,2829 @@
+{
+    "Breakfast": {
+        "Hot Cereal": {
+            "Oatmeal": {
+                "traits": [
+                    "Nutrient Dense High",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "oats"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Cup",
+                        "value": 227.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 164.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Saturated Fat": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 3.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 29.0,
+                        "unit": "grams",
+                        "daily_value": 11.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 17.0
+                    },
+                    "Sugars": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Protein": {
+                        "value": 6.0,
+                        "unit": "grams",
+                        "daily_value": 8.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 2.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 10.0
+                    }
+                }
+            }
+        },
+        "Toast": {
+            "Sauteed Peppers and Onions": {
+                "traits": [
+                    "Gluten Free",
+                    "Nutrient Dense High",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "1 oz",
+                        "value": 28.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 46.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 7.0
+                    },
+                    "Saturated Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 1.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Sugars": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Protein": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 1.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 16.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    }
+                }
+            },
+            "Scrambled Tofu w/ Spinach": {
+                "traits": [
+                    "Gluten Free",
+                    "Nutrient Dense Medium",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "soy"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "1/2 Cup",
+                        "value": 113.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 74.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 5.0
+                    },
+                    "Saturated Fat": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 470.0,
+                        "unit": "milligrams",
+                        "daily_value": 31.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 6.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Sugars": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 5.0
+                    },
+                    "Protein": {
+                        "value": 7.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 36.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 58.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 5.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 7.0
+                    }
+                }
+            },
+            "Potato Tots": {
+                "traits": [
+                    "Nutrient Dense Low",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "item is deep fried"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "1/2 Cup",
+                        "value": 85.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 251.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 21.0,
+                        "unit": "grams",
+                        "daily_value": 32.0
+                    },
+                    "Saturated Fat": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 372.0,
+                        "unit": "milligrams",
+                        "daily_value": 25.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 17.0,
+                        "unit": "grams",
+                        "daily_value": 6.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Sugars": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Protein": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 1.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 1.0
+                    }
+                }
+            },
+            "Scrambled Eggs": {
+                "traits": [
+                    "Gluten Free",
+                    "Nutrient Dense High",
+                    "Vegetarian",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "eggs",
+                    "soy"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "1/2 Cup",
+                        "value": 84.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 163.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 12.0,
+                        "unit": "grams",
+                        "daily_value": 19.0
+                    },
+                    "Saturated Fat": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 17.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 336.0,
+                        "unit": "milligrams",
+                        "daily_value": 112.0
+                    },
+                    "Sodium": {
+                        "value": 116.0,
+                        "unit": "milligrams",
+                        "daily_value": 8.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Sugars": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Protein": {
+                        "value": 11.0,
+                        "unit": "grams",
+                        "daily_value": 15.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 7.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 6.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 9.0
+                    }
+                }
+            },
+            "Bacon": {
+                "traits": [
+                    "Gluten Free",
+                    "Nutrient Dense Low",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "pork"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "2 Slices",
+                        "value": 20.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 102.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 9.0,
+                        "unit": "grams",
+                        "daily_value": 14.0
+                    },
+                    "Saturated Fat": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 14.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 26.0,
+                        "unit": "milligrams",
+                        "daily_value": 9.0
+                    },
+                    "Sodium": {
+                        "value": 319.0,
+                        "unit": "milligrams",
+                        "daily_value": 21.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Sugars": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Protein": {
+                        "value": 6.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    }
+                }
+            },
+            "Blueberry Buttermilk Pancakes": {
+                "traits": [
+                    "Nutrient Dense Medium",
+                    "Vegetarian",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "milk",
+                    "oats",
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Pancake",
+                        "value": 71.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 105.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Saturated Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 434.0,
+                        "unit": "milligrams",
+                        "daily_value": 29.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 22.0,
+                        "unit": "grams",
+                        "daily_value": 8.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 3.0
+                    },
+                    "Sugars": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 7.0
+                    },
+                    "Protein": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 2.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 7.0
+                    }
+                }
+            }
+        },
+        "MBakery": {
+            "Lemon Poppyseed Muffins": {
+                "traits": [
+                    "Nutrient Dense Low Medium",
+                    "Vegetarian",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "eggs",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Muffin",
+                        "value": 54.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 181.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 9.0,
+                        "unit": "grams",
+                        "daily_value": 13.0
+                    },
+                    "Saturated Fat": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 8.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 17.0,
+                        "unit": "milligrams",
+                        "daily_value": 6.0
+                    },
+                    "Sodium": {
+                        "value": 138.0,
+                        "unit": "milligrams",
+                        "daily_value": 9.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 23.0,
+                        "unit": "grams",
+                        "daily_value": 8.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 3.0
+                    },
+                    "Sugars": {
+                        "value": 13.0,
+                        "unit": "grams",
+                        "daily_value": 26.0
+                    },
+                    "Protein": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 4.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 5.0
+                    }
+                }
+            },
+            "Apple Cinnamon Muffins": {
+                "traits": [
+                    "Nutrient Dense Low Medium",
+                    "Vegetarian",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "eggs",
+                    "milk",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Muffin",
+                        "value": 54.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 181.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 9.0,
+                        "unit": "grams",
+                        "daily_value": 13.0
+                    },
+                    "Saturated Fat": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 8.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 22.0,
+                        "unit": "milligrams",
+                        "daily_value": 7.0
+                    },
+                    "Sodium": {
+                        "value": 172.0,
+                        "unit": "milligrams",
+                        "daily_value": 11.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 23.0,
+                        "unit": "grams",
+                        "daily_value": 8.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 3.0
+                    },
+                    "Sugars": {
+                        "value": 12.0,
+                        "unit": "grams",
+                        "daily_value": 24.0
+                    },
+                    "Protein": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 3.0
+                    }
+                }
+            }
+        }
+    },
+    "Lunch": {
+        "Hot Cereal": {
+            "Oatmeal": {
+                "traits": [
+                    "Nutrient Dense High",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "oats"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "8 oz",
+                        "value": 227.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 164.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Saturated Fat": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 3.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 29.0,
+                        "unit": "grams",
+                        "daily_value": 11.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 17.0
+                    },
+                    "Sugars": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Protein": {
+                        "value": 6.0,
+                        "unit": "grams",
+                        "daily_value": 8.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 2.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 10.0
+                    }
+                }
+            }
+        },
+        "Toast": {
+            "Sauteed Peppers and Onions": {
+                "traits": [
+                    "Gluten Free",
+                    "Nutrient Dense High",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "1 oz",
+                        "value": 28.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 46.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 7.0
+                    },
+                    "Saturated Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 1.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Sugars": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Protein": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 1.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 16.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    }
+                }
+            },
+            "Potato Tots": {
+                "traits": [
+                    "Nutrient Dense Low",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "item is deep fried"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "1/2 Cup",
+                        "value": 85.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 251.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 21.0,
+                        "unit": "grams",
+                        "daily_value": 32.0
+                    },
+                    "Saturated Fat": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 372.0,
+                        "unit": "milligrams",
+                        "daily_value": 25.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 17.0,
+                        "unit": "grams",
+                        "daily_value": 6.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Sugars": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Protein": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 1.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 1.0
+                    }
+                }
+            },
+            "Scrambled Eggs": {
+                "traits": [
+                    "Gluten Free",
+                    "Nutrient Dense High",
+                    "Vegetarian",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "eggs",
+                    "soy"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "1/2 Cup",
+                        "value": 84.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 163.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 12.0,
+                        "unit": "grams",
+                        "daily_value": 19.0
+                    },
+                    "Saturated Fat": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 17.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 336.0,
+                        "unit": "milligrams",
+                        "daily_value": 112.0
+                    },
+                    "Sodium": {
+                        "value": 116.0,
+                        "unit": "milligrams",
+                        "daily_value": 8.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Sugars": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Protein": {
+                        "value": 11.0,
+                        "unit": "grams",
+                        "daily_value": 15.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 7.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 6.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 9.0
+                    }
+                }
+            },
+            "Scrambled Tofu w/ Spinach": {
+                "traits": [
+                    "Gluten Free",
+                    "Nutrient Dense Medium",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "soy"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "1/2 Cup",
+                        "value": 113.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 74.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 5.0
+                    },
+                    "Saturated Fat": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 470.0,
+                        "unit": "milligrams",
+                        "daily_value": 31.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 6.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Sugars": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 5.0
+                    },
+                    "Protein": {
+                        "value": 7.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 36.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 58.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 5.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 7.0
+                    }
+                }
+            },
+            "Bacon": {
+                "traits": [
+                    "Gluten Free",
+                    "Nutrient Dense Low",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "pork"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "2 Slices",
+                        "value": 20.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 102.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 9.0,
+                        "unit": "grams",
+                        "daily_value": 14.0
+                    },
+                    "Saturated Fat": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 14.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 26.0,
+                        "unit": "milligrams",
+                        "daily_value": 9.0
+                    },
+                    "Sodium": {
+                        "value": 319.0,
+                        "unit": "milligrams",
+                        "daily_value": 21.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Sugars": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Protein": {
+                        "value": 6.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    }
+                }
+            },
+            "Blueberry Buttermilk Pancakes": {
+                "traits": [
+                    "Nutrient Dense Medium",
+                    "Vegetarian",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "milk",
+                    "oats",
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Pancake",
+                        "value": 71.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 105.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Saturated Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 434.0,
+                        "unit": "milligrams",
+                        "daily_value": 29.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 22.0,
+                        "unit": "grams",
+                        "daily_value": 8.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 3.0
+                    },
+                    "Sugars": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 7.0
+                    },
+                    "Protein": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 2.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 7.0
+                    }
+                }
+            }
+        },
+        "Soup": {
+            "Michigan Bean Soup": {
+                "traits": [
+                    "Gluten Free",
+                    "Nutrient Dense High",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Cup",
+                        "value": 261.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 128.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Saturated Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 320.0,
+                        "unit": "milligrams",
+                        "daily_value": 21.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 25.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 8.0,
+                        "unit": "grams",
+                        "daily_value": 33.0
+                    },
+                    "Sugars": {
+                        "value": 5.0,
+                        "unit": "grams",
+                        "daily_value": 10.0
+                    },
+                    "Protein": {
+                        "value": 7.0,
+                        "unit": "grams",
+                        "daily_value": 10.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 6.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 3.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 3.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 14.0
+                    }
+                }
+            }
+        },
+        "24 Carrots": {
+            "Filipino Vegetable Pancit": {
+                "traits": [
+                    "Nutrient Dense Low",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "1/2 cup",
+                        "value": 113.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 174.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Saturated Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 1.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 680.0,
+                        "unit": "milligrams",
+                        "daily_value": 45.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 34.0,
+                        "unit": "grams",
+                        "daily_value": 12.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 6.0
+                    },
+                    "Sugars": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Protein": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 5.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 6.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 21.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 4.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 7.0
+                    }
+                }
+            }
+        },
+        "Halal": {
+            "Chicken & Dumplings": {
+                "traits": [
+                    "Halal",
+                    "Nutrient Dense Medium",
+                    "Carbon Footprint Medium"
+                ],
+                "allergens": [
+                    "milk",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "8 oz",
+                        "value": 227.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 269.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 15.0,
+                        "unit": "grams",
+                        "daily_value": 23.0
+                    },
+                    "Saturated Fat": {
+                        "value": 7.0,
+                        "unit": "grams",
+                        "daily_value": 32.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 13.0,
+                        "unit": "milligrams",
+                        "daily_value": 4.0
+                    },
+                    "Sodium": {
+                        "value": 658.0,
+                        "unit": "milligrams",
+                        "daily_value": 44.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 17.0,
+                        "unit": "grams",
+                        "daily_value": 6.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 7.0
+                    },
+                    "Sugars": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 6.0
+                    },
+                    "Protein": {
+                        "value": 18.0,
+                        "unit": "grams",
+                        "daily_value": 23.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 12.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 6.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 4.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 9.0
+                    }
+                }
+            },
+            "Green Peas": {
+                "traits": [
+                    "Gluten Free",
+                    "Nutrient Dense High",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "1/2 Cup",
+                        "value": 113.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 76.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Saturated Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 15.0,
+                        "unit": "grams",
+                        "daily_value": 6.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 5.0,
+                        "unit": "grams",
+                        "daily_value": 20.0
+                    },
+                    "Sugars": {
+                        "value": 5.0,
+                        "unit": "grams",
+                        "daily_value": 10.0
+                    },
+                    "Protein": {
+                        "value": 5.0,
+                        "unit": "grams",
+                        "daily_value": 7.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 10.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 8.0
+                    }
+                }
+            }
+        },
+        "Pizziti": {
+            "Cheese Flatbread": {
+                "traits": [
+                    "Nutrient Dense Medium",
+                    "Vegetarian",
+                    "Carbon Footprint Medium"
+                ],
+                "allergens": [
+                    "milk",
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Piece",
+                        "value": 51.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 172.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 10.0,
+                        "unit": "grams",
+                        "daily_value": 16.0
+                    },
+                    "Saturated Fat": {
+                        "value": 5.0,
+                        "unit": "grams",
+                        "daily_value": 23.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 30.0,
+                        "unit": "milligrams",
+                        "daily_value": 10.0
+                    },
+                    "Sodium": {
+                        "value": 336.0,
+                        "unit": "milligrams",
+                        "daily_value": 22.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 9.0,
+                        "unit": "grams",
+                        "daily_value": 3.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Sugars": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Protein": {
+                        "value": 10.0,
+                        "unit": "grams",
+                        "daily_value": 13.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 25.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 9.0
+                    }
+                }
+            },
+            "Mushroom and Spinach Flatbread Pizza": {
+                "traits": [
+                    "Nutrient Dense Medium",
+                    "Vegetarian",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "milk",
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Slice",
+                        "value": 65.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 125.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 8.0,
+                        "unit": "grams",
+                        "daily_value": 13.0
+                    },
+                    "Saturated Fat": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 10.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 12.0,
+                        "unit": "milligrams",
+                        "daily_value": 4.0
+                    },
+                    "Sodium": {
+                        "value": 161.0,
+                        "unit": "milligrams",
+                        "daily_value": 11.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 8.0,
+                        "unit": "grams",
+                        "daily_value": 3.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 3.0
+                    },
+                    "Sugars": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Protein": {
+                        "value": 5.0,
+                        "unit": "grams",
+                        "daily_value": 7.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 13.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 3.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 10.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 3.0
+                    }
+                }
+            },
+            "Tomato Parmesan Flatbread Pizza": {
+                "traits": [
+                    "Nutrient Dense Low Medium",
+                    "Vegetarian",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "milk",
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Slices",
+                        "value": 65.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 156.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 6.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Saturated Fat": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 12.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 13.0,
+                        "unit": "milligrams",
+                        "daily_value": 4.0
+                    },
+                    "Sodium": {
+                        "value": 308.0,
+                        "unit": "milligrams",
+                        "daily_value": 21.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 18.0,
+                        "unit": "grams",
+                        "daily_value": 6.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 6.0
+                    },
+                    "Sugars": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 1.0
+                    },
+                    "Protein": {
+                        "value": 9.0,
+                        "unit": "grams",
+                        "daily_value": 12.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 1.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 2.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 14.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 7.0
+                    }
+                }
+            }
+        },
+        "Deli": {
+            "Sandwiches Made to Order": {
+                "traits": [],
+                "allergens": [],
+                "nutrition": {}
+            }
+        },
+        "Kings Hawaiian Grill": {
+            "Beef and Mushroom Blended Burger": {
+                "traits": [
+                    "Halal",
+                    "Nutrient Dense Medium",
+                    "Carbon Footprint High"
+                ],
+                "allergens": [
+                    "beef",
+                    "eggs",
+                    "milk",
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Hamburger",
+                        "value": 130.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 335.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 15.0,
+                        "unit": "grams",
+                        "daily_value": 23.0
+                    },
+                    "Saturated Fat": {
+                        "value": 7.0,
+                        "unit": "grams",
+                        "daily_value": 30.0
+                    },
+                    "Trans Fat": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 93.0,
+                        "unit": "milligrams",
+                        "daily_value": 31.0
+                    },
+                    "Sodium": {
+                        "value": 186.0,
+                        "unit": "milligrams",
+                        "daily_value": 12.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 23.0,
+                        "unit": "grams",
+                        "daily_value": 8.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Sugars": {
+                        "value": 8.0,
+                        "unit": "grams",
+                        "daily_value": 16.0
+                    },
+                    "Protein": {
+                        "value": 25.0,
+                        "unit": "grams",
+                        "daily_value": 33.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 4.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 18.0
+                    }
+                }
+            },
+            "Beef & Mushroom Blended Burger w/ Cheese": {
+                "traits": [
+                    "Halal",
+                    "Nutrient Dense Low Medium",
+                    "Carbon Footprint High"
+                ],
+                "allergens": [
+                    "beef",
+                    "eggs",
+                    "milk",
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Hamburger",
+                        "value": 166.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 462.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 27.0,
+                        "unit": "grams",
+                        "daily_value": 41.0
+                    },
+                    "Saturated Fat": {
+                        "value": 13.0,
+                        "unit": "grams",
+                        "daily_value": 58.0
+                    },
+                    "Trans Fat": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 125.0,
+                        "unit": "milligrams",
+                        "daily_value": 42.0
+                    },
+                    "Sodium": {
+                        "value": 818.0,
+                        "unit": "milligrams",
+                        "daily_value": 55.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 25.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Sugars": {
+                        "value": 9.0,
+                        "unit": "grams",
+                        "daily_value": 18.0
+                    },
+                    "Protein": {
+                        "value": 31.0,
+                        "unit": "grams",
+                        "daily_value": 42.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 21.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 19.0
+                    }
+                }
+            },
+            "Pub Style Fish": {
+                "traits": [
+                    "Nutrient Dense Medium",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "fish",
+                    "item is deep fried",
+                    "milk",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "3 oz",
+                        "value": 85.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 110.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 6.0
+                    },
+                    "Saturated Fat": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 22.0,
+                        "unit": "milligrams",
+                        "daily_value": 7.0
+                    },
+                    "Sodium": {
+                        "value": 360.0,
+                        "unit": "milligrams",
+                        "daily_value": 24.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 9.0,
+                        "unit": "grams",
+                        "daily_value": 3.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Sugars": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 0.0
+                    },
+                    "Protein": {
+                        "value": 11.0,
+                        "unit": "grams",
+                        "daily_value": 15.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 2.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 10.0
+                    }
+                }
+            },
+            "Crispy Veggie Patty on Hawaiian Bun": {
+                "traits": [
+                    "Nutrient Dense Medium High",
+                    "Vegetarian",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "eggs",
+                    "item is deep fried",
+                    "milk",
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Sandwich",
+                        "value": 123.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 390.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 21.0,
+                        "unit": "grams",
+                        "daily_value": 32.0
+                    },
+                    "Saturated Fat": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 17.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 20.0,
+                        "unit": "milligrams",
+                        "daily_value": 7.0
+                    },
+                    "Sodium": {
+                        "value": 408.0,
+                        "unit": "milligrams",
+                        "daily_value": 27.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 41.0,
+                        "unit": "grams",
+                        "daily_value": 15.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 16.0
+                    },
+                    "Sugars": {
+                        "value": 10.0,
+                        "unit": "grams",
+                        "daily_value": 20.0
+                    },
+                    "Protein": {
+                        "value": 13.0,
+                        "unit": "grams",
+                        "daily_value": 17.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 5.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 13.0
+                    }
+                }
+            },
+            "French Fries": {
+                "traits": [
+                    "Nutrient Dense Low",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "item is deep fried"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "1/2 Cup",
+                        "value": 113.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 186.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 10.0,
+                        "unit": "grams",
+                        "daily_value": 15.0
+                    },
+                    "Saturated Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 470.0,
+                        "unit": "milligrams",
+                        "daily_value": 31.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 25.0,
+                        "unit": "grams",
+                        "daily_value": 9.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 5.0
+                    },
+                    "Sugars": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 3.0
+                    },
+                    "Protein": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 2.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 1.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 2.0
+                    }
+                }
+            }
+        },
+        "MBakery": {
+            "Caramel Pretzel Brownies": {
+                "traits": [
+                    "Nutrient Dense Low",
+                    "Vegetarian",
+                    "Carbon Footprint Medium"
+                ],
+                "allergens": [
+                    "eggs",
+                    "milk",
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Bar",
+                        "value": 88.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 329.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 12.0,
+                        "unit": "grams",
+                        "daily_value": 18.0
+                    },
+                    "Saturated Fat": {
+                        "value": 6.0,
+                        "unit": "grams",
+                        "daily_value": 29.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 64.0,
+                        "unit": "milligrams",
+                        "daily_value": 21.0
+                    },
+                    "Sodium": {
+                        "value": 305.0,
+                        "unit": "milligrams",
+                        "daily_value": 20.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 49.0,
+                        "unit": "grams",
+                        "daily_value": 18.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Sugars": {
+                        "value": 31.0,
+                        "unit": "grams",
+                        "daily_value": 61.0
+                    },
+                    "Protein": {
+                        "value": 6.0,
+                        "unit": "grams",
+                        "daily_value": 8.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 8.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 5.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 8.0
+                    }
+                }
+            },
+            "Chocolate Raspberry Cake": {
+                "traits": [
+                    "Nutrient Dense Low",
+                    "Vegan",
+                    "Carbon Footprint Medium"
+                ],
+                "allergens": [
+                    "oats",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Piece",
+                        "value": 118.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 369.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 15.0,
+                        "unit": "grams",
+                        "daily_value": 23.0
+                    },
+                    "Saturated Fat": {
+                        "value": 4.0,
+                        "unit": "grams",
+                        "daily_value": 18.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 533.0,
+                        "unit": "milligrams",
+                        "daily_value": 36.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 55.0,
+                        "unit": "grams",
+                        "daily_value": 20.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 3.0
+                    },
+                    "Sugars": {
+                        "value": 42.0,
+                        "unit": "grams",
+                        "daily_value": 83.0
+                    },
+                    "Protein": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 8.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 4.0
+                    }
+                }
+            },
+            "Vegan Maple Oatmeal Cookie Sandwich": {
+                "traits": [
+                    "Nutrient Dense Low",
+                    "Vegan",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "oats",
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Sandwich",
+                        "value": 85.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 366.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 18.0,
+                        "unit": "grams",
+                        "daily_value": 27.0
+                    },
+                    "Saturated Fat": {
+                        "value": 7.0,
+                        "unit": "grams",
+                        "daily_value": 31.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 0.0,
+                        "unit": "milligrams",
+                        "daily_value": 0.0
+                    },
+                    "Sodium": {
+                        "value": 464.0,
+                        "unit": "milligrams",
+                        "daily_value": 31.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 50.0,
+                        "unit": "grams",
+                        "daily_value": 18.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 6.0
+                    },
+                    "Sugars": {
+                        "value": 31.0,
+                        "unit": "grams",
+                        "daily_value": 62.0
+                    },
+                    "Protein": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 4.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 6.0
+                    }
+                }
+            },
+            "Chocolate Chunk Cookies": {
+                "traits": [
+                    "Nutrient Dense Low",
+                    "Vegetarian",
+                    "Carbon Footprint Low"
+                ],
+                "allergens": [
+                    "eggs",
+                    "milk",
+                    "soy",
+                    "wheat/barley/rye"
+                ],
+                "nutrition": {
+                    "Serving Size": {
+                        "portion_size": "Cookie",
+                        "value": 35.0,
+                        "unit": "grams"
+                    },
+                    "Calories": {
+                        "value": 152.0,
+                        "unit": "kilocalories"
+                    },
+                    "Total Fat": {
+                        "value": 7.0,
+                        "unit": "grams",
+                        "daily_value": 11.0
+                    },
+                    "Saturated Fat": {
+                        "value": 3.0,
+                        "unit": "grams",
+                        "daily_value": 14.0
+                    },
+                    "Trans Fat": {
+                        "value": 0.0,
+                        "unit": "grams",
+                        "daily_value": null
+                    },
+                    "Cholesterol": {
+                        "value": 5.0,
+                        "unit": "milligrams",
+                        "daily_value": 2.0
+                    },
+                    "Sodium": {
+                        "value": 117.0,
+                        "unit": "milligrams",
+                        "daily_value": 8.0
+                    },
+                    "Total Carbohydrate": {
+                        "value": 21.0,
+                        "unit": "grams",
+                        "daily_value": 8.0
+                    },
+                    "Dietary Fiber": {
+                        "value": 1.0,
+                        "unit": "grams",
+                        "daily_value": 4.0
+                    },
+                    "Sugars": {
+                        "value": 13.0,
+                        "unit": "grams",
+                        "daily_value": 26.0
+                    },
+                    "Protein": {
+                        "value": 2.0,
+                        "unit": "grams",
+                        "daily_value": 3.0
+                    },
+                    "Vitamin A": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 4.0
+                    },
+                    "Vitamin C": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 0.0
+                    },
+                    "Calcium": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 1.0
+                    },
+                    "Iron": {
+                        "value": null,
+                        "unit": "",
+                        "daily_value": 6.0
+                    }
+                }
+            }
+        }
+    }
+}
