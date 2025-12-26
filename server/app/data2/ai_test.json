@@ -1,0 +1,207 @@
+{
+  "Soup": {
+    "station_name": "Soup",
+    "offerings": [
+      {
+        "name": "Garden Vegetable Soup",
+        "items": [
+          "Garden Vegetable Soup"
+        ],
+        "type": "entree",
+        "service_style": "self_serve",
+        "reasoning": "Single soup item, served self-serve."
+      }
+    ]
+  },
+
+  "Signature Maize": {
+    "station_name": "Signature Maize",
+    "offerings": [
+      {
+        "name": "Puerto Rican Pork Roast Plate",
+        "items": [
+          "Puerto Rican Pork Roast",
+          "Red Beans & Rice",
+          "Corn with Cumin, Chili, and Tomato",
+          "Avocado Wedge"
+        ],
+        "type": "entree",
+        "service_style": "bundle",
+        "reasoning": "Main dish with standard sides."
+      }
+    ]
+  },
+
+  "Signature Blue": {
+    "station_name": "Signature Blue",
+    "offerings": [
+      {
+        "name": "Red Beans Plate",
+        "items": [
+          "Red Beans & Rice",
+          "Corn with Cumin, Chili, and Tomato",
+          "Avocado Wedge"
+        ],
+        "type": "entree",
+        "service_style": "bundle",
+        "reasoning": "Main dish with complementary sides."
+      }
+    ]
+  },
+
+  "24 Carrots": {
+    "station_name": "24 Carrots",
+    "offerings": [
+      {
+        "name": "Vegetable Chirashi Plate",
+        "items": [
+          "Vegetable Chirashi",
+          "Edamame"
+        ],
+        "type": "entree",
+        "service_style": "bundle",
+        "reasoning": "Primary main (Vegetable Chirashi) paired with side (Edamame) as a fixed plate"
+      }
+    ]
+  },
+
+  "Halal": {
+    "station_name": "Halal",
+    "offerings": [
+      {
+        "name": "Lamb Gyro Plate",
+        "items": [
+          "Lamb Gyro Meat",
+          "Pilafi (Greek Style Rice)",
+          "Romaine Lettuce",
+          "Sliced Tomatoes"
+        ],
+        "type": "entree",
+        "service_style": "bundle",
+        "reasoning": "Main gyro meat served with rice and fresh vegetables."
+      }
+    ]
+  },
+
+  "Pizziti": {
+    "station_name": "Pizziti",
+    "offerings": [
+      {
+        "name": "Cheese Pizza Combo",
+        "items": [
+          "Cheese Pizza",
+          "Garlic Cheese Bread"
+        ],
+        "type": "entree",
+        "service_style": "bundle",
+        "reasoning": "Classic pizza paired with garlic cheese bread as side."
+      },
+      {
+        "name": "Roasted Mushroom & Spinach Pizza Combo",
+        "items": [
+          "Roasted Mushroom & Spinach Pizza",
+          "Garlic Cheese Bread"
+        ],
+        "type": "entree",
+        "service_style": "bundle",
+        "reasoning": "Specialty pizza paired with garlic cheese bread as side."
+      },
+      {
+        "name": "Pepperoni Pizza Combo",
+        "items": [
+          "Pepperoni Pizza",
+          "Garlic Cheese Bread"
+        ],
+        "type": "entree",
+        "service_style": "bundle",
+        "reasoning": "Popular pepperoni pizza paired with garlic cheese bread."
+      }
+    ]
+  },
+
+  "Wild Fire Maize": {
+    "station_name": "Wild Fire Maize",
+    "offerings": [
+      {
+        "name": "Side of Seasoned Fries",
+        "items": [
+          "Seasoned Fries"
+        ],
+        "type": "entree",
+        "service_style": "self_serve",
+        "reasoning": "Fries offered as a reusable side component"
+      },
+      {
+        "name": "Beef and Mushroom Blended Burger Combo",
+        "items": [
+          "Beef and Mushroom Blended Burger",
+          "Seasoned Fries"
+        ],
+        "type": "entree",
+        "service_style": "bundle",
+        "reasoning": "Main burger paired with classic fries side"
+      },
+      {
+        "name": "Beef & Mushroom Blend Burger w/ American Combo",
+        "items": [
+          "Beef & Mushroom Blend Burger w/ American",
+          "Seasoned Fries"
+        ],
+        "type": "entree",
+        "service_style": "bundle",
+        "reasoning": "Burger with American cheese paired with fries side"
+      }
+    ]
+  },
+
+  "MBakery": {
+    "station_name": "MBakery",
+    "offerings": [
+      {
+        "name": "Caramel Pretzel Brownies",
+        "items": [
+          "Caramel Pretzel Brownies"
+        ],
+        "type": "dessert",
+        "service_style": "self_serve",
+        "reasoning": "Dessert item."
+      },
+      {
+        "name": "Vegan Maple Oatmeal Cookie Sandwich",
+        "items": [
+          "Vegan Maple Oatmeal Cookie Sandwich"
+        ],
+        "type": "dessert",
+        "service_style": "self_serve",
+        "reasoning": "Dessert item."
+      },
+      {
+        "name": "Peanut Butter Cookies",
+        "items": [
+          "Peanut Butter Cookies"
+        ],
+        "type": "dessert",
+        "service_style": "self_serve",
+        "reasoning": "Dessert item."
+      },
+      {
+        "name": "Double Chocolate Cake",
+        "items": [
+          "Double Chocolate Cake"
+        ],
+        "type": "dessert",
+        "service_style": "self_serve",
+        "reasoning": "Dessert item."
+      },
+      {
+        "name": "Chocolate Chunk Cookies",
+        "items": [
+          "Chocolate Chunk Cookies"
+        ],
+        "type": "dessert",
+        "service_style": "self_serve",
+        "reasoning": "Dessert item."
+      }
+    ]
+  }
+}

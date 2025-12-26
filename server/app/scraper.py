@@ -74,6 +74,11 @@ def scrape_dining_hall(soup: BeautifulSoup, url: str = " "):
                         st = station.find("h4").get_text(strip=True)
                         # print("Station:", st)
                         info[current_section][st] = {}
+                        check_availability = station.find("ul", class_="items").find("a", class_="item-no-nutrition")
+                        if check_availability:
+                            # print("  No nutrition information available for items in this station.")
+                            info[current_section].pop(st)
+                            continue
                         station_items = station.find("ul", class_="items").find_all("li", recursive=False)
                         for item in station_items:
                             item_name = item.select("div .item-name")[0].get_text(strip=True)
@@ -123,8 +128,8 @@ def scrape_dining_hall(soup: BeautifulSoup, url: str = " "):
                                             if len(item_header) >= 2:
                                                 calories_value = item_header[1]
                                             nutrition_info['Calories'] = {}
-                                            nutrition_info['Calories']['value'] = float(calories_value) if calories_value != '' else None
-                                            nutrition_info['Calories']['unit'] = 'kilocalories' if calories_value != '' else None
+                                            nutrition_info['Calories']['value'] = float(calories_value) if calories_value != '' else 0.0
+                                            nutrition_info['Calories']['unit'] = 'kilocalories' if calories_value != '' else calories_value
                                     else:
                                         if cols[0].get_text(strip=True) == "":
                                                 continue
@@ -148,12 +153,12 @@ def scrape_dining_hall(soup: BeautifulSoup, url: str = " "):
                                                     measurement = measurement_units[postfix[i:]]
                                                     break
                                             nutrition_info[prefix] = {}
-                                            nutrition_info[prefix]['value'] = float(value) if value != '' else None
+                                            nutrition_info[prefix]['value'] = float(value) if value != '' else 0.0
                                             nutrition_info[prefix]['unit'] = measurement
 
                                             nutrient_percentage = re.sub('%', '', cols[1].get_text(strip=True))
                                             # print(f"% Daily Value: {nutrient_percentage}")
-                                            nutrition_info[prefix]['daily_value'] = float(nutrient_percentage) if nutrient_percentage != '' else None
+                                            nutrition_info[prefix]['daily_value'] = float(nutrient_percentage) if nutrient_percentage != '' else 0.0
                                 info[current_section][st][item_name]['nutrition'] = nutrition_info
 
     base_path = os.path.basename(url).replace('.html', '')

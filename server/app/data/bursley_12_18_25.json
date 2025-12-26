@@ -33,7 +33,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -66,22 +66,22 @@
                         "daily_value": 8.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 2.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 10.0
                     }
@@ -118,7 +118,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -151,22 +151,22 @@
                         "daily_value": 0.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     }
@@ -206,7 +206,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -239,22 +239,22 @@
                         "daily_value": 2.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 2.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 2.0
                     }
@@ -293,7 +293,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 45.0,
@@ -326,22 +326,22 @@
                         "daily_value": 12.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     }
@@ -381,7 +381,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 336.0,
@@ -414,22 +414,22 @@
                         "daily_value": 15.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 7.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 6.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 9.0
                     }
@@ -471,7 +471,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 15.0,
@@ -504,22 +504,22 @@
                         "daily_value": 2.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     }
@@ -558,7 +558,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -591,22 +591,22 @@
                         "daily_value": 9.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 36.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 58.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 5.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 7.0
                     }
@@ -643,7 +643,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -676,22 +676,22 @@
                         "daily_value": 2.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 74.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 19.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 4.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 6.0
                     }
@@ -731,7 +731,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 145.0,
@@ -764,22 +764,22 @@
                         "daily_value": 11.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 7.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 28.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 13.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 4.0
                     }
@@ -818,7 +818,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -851,22 +851,22 @@
                         "daily_value": 4.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 9.0
                     }
@@ -909,7 +909,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -942,22 +942,22 @@
                         "daily_value": 6.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 8.0
                     }
@@ -996,7 +996,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 17.0,
@@ -1029,22 +1029,22 @@
                         "daily_value": 2.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     }
@@ -1085,7 +1085,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 17.0,
@@ -1118,22 +1118,22 @@
                         "daily_value": 3.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 5.0
                     }
@@ -1173,7 +1173,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 22.0,
@@ -1206,22 +1206,22 @@
                         "daily_value": 2.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     }
@@ -1265,7 +1265,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -1298,22 +1298,22 @@
                         "daily_value": 6.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 6.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 7.0
                     }
@@ -1353,7 +1353,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 57.0,
@@ -1386,22 +1386,22 @@
                         "daily_value": 20.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 7.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 7.0
                     }
@@ -1438,7 +1438,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -1471,22 +1471,22 @@
                         "daily_value": 5.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 7.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 2.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 6.0
                     }
@@ -1523,7 +1523,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -1556,22 +1556,22 @@
                         "daily_value": 3.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 8.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     }
@@ -1608,7 +1608,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -1641,22 +1641,22 @@
                         "daily_value": 1.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 5.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     }
@@ -1695,7 +1695,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -1728,22 +1728,22 @@
                         "daily_value": 5.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 7.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 2.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 6.0
                     }
@@ -1780,7 +1780,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -1813,22 +1813,22 @@
                         "daily_value": 3.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 8.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     }
@@ -1865,7 +1865,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -1898,22 +1898,22 @@
                         "daily_value": 1.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 5.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     }
@@ -1956,7 +1956,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -1989,22 +1989,22 @@
                         "daily_value": 10.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 104.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 19.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 5.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 15.0
                     }
@@ -2043,7 +2043,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -2076,22 +2076,22 @@
                         "daily_value": 9.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 9.0
                     }
@@ -2130,7 +2130,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 34.0,
@@ -2163,22 +2163,22 @@
                         "daily_value": 12.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 6.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 2.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 9.0
                     }
@@ -2215,7 +2215,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -2248,22 +2248,22 @@
                         "daily_value": 4.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 4.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 6.0
                     }
@@ -2300,7 +2300,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -2333,22 +2333,22 @@
                         "daily_value": 0.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 51.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 26.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 2.0
                     }
@@ -2385,7 +2385,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -2418,22 +2418,22 @@
                         "daily_value": 1.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 4.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 8.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     }
@@ -2476,7 +2476,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 21.0,
@@ -2509,22 +2509,22 @@
                         "daily_value": 16.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 18.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 15.0
                     }
@@ -2565,7 +2565,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 20.0,
@@ -2598,22 +2598,22 @@
                         "daily_value": 16.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 23.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 6.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 18.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 14.0
                     }
@@ -2654,7 +2654,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 26.0,
@@ -2687,22 +2687,22 @@
                         "daily_value": 12.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 2.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 18.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 13.0
                     }
@@ -2744,7 +2744,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 28.0,
@@ -2777,22 +2777,22 @@
                         "daily_value": 17.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 18.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 16.0
                     }
@@ -2835,7 +2835,7 @@
                     "Trans Fat": {
                         "value": 1.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 73.0,
@@ -2868,22 +2868,22 @@
                         "daily_value": 32.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 4.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 18.0
                     }
@@ -2921,7 +2921,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -2954,22 +2954,22 @@
                         "daily_value": 2.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 2.0
                     }
@@ -3011,7 +3011,7 @@
                     "Trans Fat": {
                         "value": 1.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 86.0,
@@ -3044,33 +3044,26 @@
                         "daily_value": 35.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 11.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 18.0
                     }
                 }
-            }
-        },
-        "Deli": {
-            "Sandwiches Made to Order": {
-                "traits": [],
-                "allergens": [],
-                "nutrition": {}
             }
         },
         "MBakery": {
@@ -3109,7 +3102,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 64.0,
@@ -3142,22 +3135,22 @@
                         "daily_value": 8.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 8.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 5.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 8.0
                     }
@@ -3197,7 +3190,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 0.0,
@@ -3230,22 +3223,22 @@
                         "daily_value": 4.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 4.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 6.0
                     }
@@ -3287,7 +3280,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 5.0,
@@ -3320,22 +3313,22 @@
                         "daily_value": 4.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     }
@@ -3376,7 +3369,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 27.0,
@@ -3409,22 +3402,22 @@
                         "daily_value": 6.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 3.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 18.0
                     }
@@ -3465,7 +3458,7 @@
                     "Trans Fat": {
                         "value": 0.0,
                         "unit": "grams",
-                        "daily_value": null
+                        "daily_value": 0.0
                     },
                     "Cholesterol": {
                         "value": 5.0,
@@ -3498,22 +3491,22 @@
                         "daily_value": 3.0
                     },
                     "Vitamin A": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 4.0
                     },
                     "Vitamin C": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 0.0
                     },
                     "Calcium": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 1.0
                     },
                     "Iron": {
-                        "value": null,
+                        "value": 0.0,
                         "unit": "",
                         "daily_value": 6.0
                     }
