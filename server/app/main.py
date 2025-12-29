@@ -4,23 +4,34 @@ from app.utils import flatten_station_items, get_configured_halls
 from app.ai import analyze_menu_for_ai
 from app.prepare import prepare_solver_data
 import json
-from pprint import pprint
 from app.query import push_into_db
 import argparse
 import os
 from pathlib import Path
 import time
+from pydantic import BaseModel
+from app.lp import LPSolverResult, execute_lp_solver
+
+class MealRequest(BaseModel):
+    dining_hall_id: int
+    meal_period: str
+    calories_min: int
+    calories_max: int
+    protein_min: int
+    fat_max: int
+    carb_max: int
 
 app = FastAPI()
 
-@app.get("/")
-def home():
-    return {"message": "FuelStack API is running!"}
-
-@app.get("/menu/south-quad")
-def get_south_quad_menu():
-    # Call your scraper function here
-    return
+@app.post("/api/optimize")
+async def optimize_meal(mealRequest: MealRequest) -> list[LPSolverResult]:
+    return execute_lp_solver(
+        cal_min=mealRequest.calories_min,
+        cal_max=mealRequest.calories_max,
+        protein_min=mealRequest.protein_min,
+        fat_max=mealRequest.fat_max,
+        carb_max=mealRequest.carb_max
+    )
 
 def process_dhall_data(dhall_data, hall_name, hall_id=None):
   for meal_period, stations in dhall_data.items():

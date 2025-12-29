@@ -14,9 +14,8 @@ from app.query import push_into_db
 load_dotenv()  # Load environment variables from .env file
 
 class ServiceStyle(str, Enum):
-    BUNDLE = "bundle"           # Pre-defined plate (High Convenience)
-    SELF_SERVE = "self_serve"   # Salad bar, Toast, Deli (Medium Convenience)
-    # SERVER_ITEM = "server_item" # A side dish on a hot line (Low Convenience)
+    BUNDLE = "bundle"
+    SELF_SERVE = "self_serve"
 
 # 1. Define the Schema
 class VirtualMeal(BaseModel):
@@ -111,7 +110,6 @@ def group_station_items(station_name: str, item_list: List[str]):
 
 
     # 3. The Call
-    # Note: We use 'response_model' instead of 'response_format'
     resp = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
         messages=[
@@ -127,18 +125,6 @@ def analyze_menu_for_ai(json_data):
     stations_to_ignore = ['Soup', 'MBakery', 'Deli']
     print(json_data.keys())
     key, components = next(iter(json_data.items()))
-    if len(components) <= 1:
-        offerings = []
-        for item in components:
-            offerings.append(
-              {
-                  "name": item,
-                  "items": [item],
-                  "service_style": "bundle",
-                  "reasoning": ""
-              }
-            )
-        return { "offerings": offerings }
 
     if key in stations_to_ignore:
         offerings = []
@@ -149,7 +135,7 @@ def analyze_menu_for_ai(json_data):
                     {
                         "name": item,
                         "items": [item],
-                        "service_style": "bundle",
+                        "service_style": "self-serve",
                         "reasoning": ""
                     }
                   )
@@ -166,6 +152,19 @@ def analyze_menu_for_ai(json_data):
                     )
         return { "offerings": offerings }
 
+    if len(components) <= 1:
+        offerings = []
+        for item in components:
+            offerings.append(
+              {
+                  "name": item,
+                  "items": [item],
+                  "service_style": "bundle",
+                  "reasoning": ""
+              }
+            )
+        return { "offerings": offerings }
+    
     for station, items in json_data.items():
         print(f"Analyzing station: {station} with {len(items)} items.")
         analysis = group_station_items(station, items)

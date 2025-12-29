@@ -30,7 +30,7 @@ def push_into_db(data):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-def fetch_menu_items(dining_hall_id = None):
+def fetch_menu_items(dining_hall_id = None, meal_period = None):
     """
     Fetches all menu items from the Supabase database.
     
@@ -38,6 +38,8 @@ def fetch_menu_items(dining_hall_id = None):
         list: A list of menu items.
     """
     if dining_hall_id is None:
+        return []
+    if meal_period is None:
         return []
     
     est_now = datetime.now(ZoneInfo("America/New_York"))
@@ -47,8 +49,9 @@ def fetch_menu_items(dining_hall_id = None):
         response = (
             supabase.table(table_name)
             .select("*")
-            .eq("date", today_date_est)
+            .eq("date", "2025-12-27")
             .eq("dining_hall_id", dining_hall_id)
+            .eq("meal_period", meal_period.lower())
             .execute()
         )
         return response.data

@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  @apply font-sans;
+  @apply bg-white;
+}
+
+@layer utilities {
+  .bg-dot-grid {
+    background-image: radial-gradient(
+      rgba(0, 0, 0, 0.15) 1px,
+      transparent 1px
+    );
+    background-size: 16px 16px;
+  }
+  .text-fluid-sm { font-size: clamp(0.875rem, 1vw, 1rem); }
+  .text-fluid-base { font-size: clamp(1rem, 1.25vw, 1.125rem); }
+  .text-fluid-lg { font-size: clamp(1.125rem, 1.5vw, 1.25rem); }
+  .text-fluid-xl { font-size: clamp(1.5rem, 3vw, 2.25rem); }
+  .text-fluid-2xl { font-size: clamp(2rem, 4vw, 3rem); }
+  .text-fluid-3xl   { font-size: clamp(2.5rem,   5.5vw, 4rem); }
+  .text-fluid-4xl   { font-size: clamp(3rem,     7vw,   5.5rem); }
+  .font-sans {
+    font-family: 'Geist', 'system-ui', 'sans-serif';
+  }
+  .font-mono {
+    font-family: 'Reddit Mono', 'ui-monospace', 'SFMono-Regular',
+  }
+  .font-umich {
+    font-family: 'Holtwood One SC';
+  }
+}
