@@ -59,3 +59,38 @@ def fetch_menu_items(dining_hall_id = None, meal_period = None):
         print(f"An error occurred: {e}")
         return []
 
+def get_all_dining_halls_info():
+    """
+    Fetches all dining hall information.
+    """
+
+    try:
+        response = (
+            supabase.table("daily_hall_status")
+            .select("*")
+            .execute()
+        )
+        return response.data
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return []
+    
+def get_dining_hall_default_menu(dining_hall_id, meal_period):
+    """
+    Fetch specific (default) dining hall menu
+    """
+
+    try:
+        response = (
+            supabase.table("menu_items")
+            .select("*")
+            .eq("date", "2025-12-27")
+            .eq("dining_hall_id", dining_hall_id)
+            .eq("meal_period", meal_period)
+            .eq("convenience_score", 1)
+            .execute()
+        )
+        return response.data
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return []

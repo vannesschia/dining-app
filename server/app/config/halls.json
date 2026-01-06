@@ -1,5 +1,11 @@
 [
   {
+    "id": "1",
+    "test_id": "bursley",
+    "name": "Bursley",
+    "url": "https://dining.umich.edu/menus-locations/dining-halls/bursley/"
+  },
+  {
     "id": "5",
     "test_id": "southq",
     "name": "South Quad",
@@ -10,11 +16,5 @@
     "test_id": "mojo",
     "name": "Mosher-Jordan",
     "url": "https://dining.umich.edu/menus-locations/dining-halls/mosher-jordan/"
-  },
-  {
-    "id": "1",
-    "test_id": "bursley",
-    "name": "Bursley",
-    "url": "https://dining.umich.edu/menus-locations/dining-halls/bursley/"
   }
 ]

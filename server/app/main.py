@@ -4,13 +4,14 @@ from app.utils import flatten_station_items, get_configured_halls
 from app.ai import analyze_menu_for_ai
 from app.prepare import prepare_solver_data
 import json
-from app.query import push_into_db
+from app.query import push_into_db, get_all_dining_halls_info, get_dining_hall_default_menu
 import argparse
 import os
 from pathlib import Path
 import time
 from pydantic import BaseModel
 from app.lp import LPSolverResult, execute_lp_solver
+from fastapi.middleware.cors import CORSMiddleware
 
 class MealRequest(BaseModel):
     dining_hall_id: int
@@ -21,7 +22,27 @@ class MealRequest(BaseModel):
     fat_max: int
     carb_max: int
 
+class DiningHallMenuRequest(BaseModel):
+    dining_hall_id: int
+    meal_period: str
+
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # Vite dev
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+@app.get("/menu")
+async def get_default_menu(id: int, meal_period: str):
+    return get_dining_hall_default_menu(id, meal_period)
+
+@app.get("/get-dining-halls")
+async def get_all_dining_halls():
+    return get_all_dining_halls_info()
 
 @app.post("/api/optimize")
 async def optimize_meal(mealRequest: MealRequest) -> list[LPSolverResult]:
