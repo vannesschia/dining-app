@@ -15,43 +15,70 @@ import Button from "../components/Button";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-type RangeNumberFieldProps = {
-  label: string;
-  minName: string;
-  maxName: string;
-  className?: string;
-  inputClassName?: string;
-  minPlaceholder?: string;
-  maxPlaceholder?: string;
-};
-
 type SwitchFieldProps = {
   label: string;
   id: string;
 }
 
+type RangeNumberFieldProps = {
+  rangeKey: string;      // e.g., "calories"
+  label: string;
+  minName: string;
+  maxName: string;
+
+  error?: string | null;
+  showError?: boolean;
+
+  onTouched?: (rangeKey: string) => void;
+  onValidate?: (rangeKey: string, form: HTMLFormElement) => void;
+
+  inputClassName?: string;
+  minPlaceholder?: string;
+  maxPlaceholder?: string;
+};
+
 export function RangeNumberField({
+  rangeKey,
   label,
   minName,
   maxName,
+  error,
+  showError = false,
+  onTouched,
+  onValidate,
   inputClassName = "border-[1.5px] border-neutral-400 rounded-lg py-1 px-2 w-full",
   minPlaceholder = "Min",
   maxPlaceholder = "Max",
 }: RangeNumberFieldProps) {
+  const invalid = Boolean(showError && error);
+
   return (
     <div className="w-full">
       <p className="text-fluid-base">{label}</p>
 
-      <div className="flex gap-2 w-full">
+      {/* Use blur capture so we can validate when leaving either field */}
+      <div
+        className="flex gap-2 w-full"
+        onBlurCapture={(e) => {
+          const form = (e.target as HTMLElement).closest("form") as HTMLFormElement | null;
+          if (!form) return;
+          onTouched?.(rangeKey);
+          onValidate?.(rangeKey, form);
+        }}
+      >
         <Form.Field name={minName} className="flex-1 min-w-0">
           <Form.Control asChild>
             <input
               type="number"
-              placeholder={minPlaceholder}
-              className={inputClassName}
               min={0}
               step="any"
               inputMode="numeric"
+              placeholder={minPlaceholder}
+              aria-invalid={invalid}
+              className={[
+                inputClassName,
+                invalid ? "border-red-500 focus-visible:ring-red-500" : "",
+              ].join(" ")}
             />
           </Form.Control>
         </Form.Field>
@@ -60,15 +87,27 @@ export function RangeNumberField({
           <Form.Control asChild>
             <input
               type="number"
+              min={0}
+              step="any"
+              inputMode="numeric"
               placeholder={maxPlaceholder}
-              className={inputClassName}
+              aria-invalid={invalid}
+              className={[
+                inputClassName,
+                invalid ? "border-red-500 focus-visible:ring-red-500" : "",
+              ].join(" ")}
             />
           </Form.Control>
         </Form.Field>
       </div>
+
+      {showError && error ? (
+        <p className="mt-1 text-sm text-red-600">{error}</p>
+      ) : null}
     </div>
   );
 }
+
 
 export function SwitchField({label, id}: SwitchFieldProps) {
   const [checked, setChecked] = useState(false);
@@ -122,8 +161,8 @@ function MenuPage() {
   const location = useLocation();
   const hallId = location.state.id;
   const { hallName, mealPeriod } = useParams();
-  // console.log(hallId)
-  // console.log(mealPeriod)
+  const [touched, setTouched] = useState<Record<string, boolean>>({});
+  const [errors, setErrors] = useState<Record<string, string | null>>({});
 
   const hid = Number(hallId);
   const period = mealPeriod as MealPeriod;
@@ -136,18 +175,13 @@ function MenuPage() {
       Number.isFinite(hid) && ["breakfast", "lunch", "dinner"].includes(period),
   });
 
-  if (isLoading) return null;
-
-  // console.log(data)
   let stations = new Map();
-  // console.log(data.length)
   for (let i = 0; i < data.length; i++) {
     if (!stations.has(data[i].station)) {
       stations.set(data[i].station, []);
     }
     stations.get(data[i].station).push(data[i]);
   }
-  console.log(stations);
 
   const dateInEST = new Date();
   const options: any = {
@@ -158,13 +192,86 @@ function MenuPage() {
   };
   const formattedDate = dateInEST.toLocaleString("en-US", options);
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    const data = Object.fromEntries(new FormData(event.currentTarget));
-    console.log(data);
+  const RANGE_DEFS = {
+    calories: { min: "caloriesMin", max: "caloriesMax" },
+    protein: { min: "proteinMin", max: "proteinMax" },
+    carbs: { min: "carbsMin", max: "carbsMax" },
+    fats: { min: "fatsMin", max: "fatsMax" },
+    sugar: { min: "sugarMin", max: "sugarMax" },
+    sodium: { min: "sodiumMin", max: "sodiumMax" },
+  } as const;
+
+  function parseNum(v: FormDataEntryValue | null) {
+    if (v == null) return null;
+    const s = String(v).trim();
+    if (s === "") return null;
+    const n = Number(s);
+    return Number.isFinite(n) ? n : null;
+  }
+
+  function validateRange(min: number | null, max: number | null) {
+    if (min != null && min < 0) return "Min cannot be negative.";
+    if (max != null && max < 0) return "Max cannot be negative.";
+    if (min != null && max != null && min > max) return "Min must be ≤ Max.";
+    return null;
+  }
+
+
+  const validateOne = (rangeKey: string, form: HTMLFormElement) => {
+    const def = RANGE_DEFS[rangeKey as keyof typeof RANGE_DEFS];
+    if (!def) return;
+
+    const fd = new FormData(form);
+    const min = parseNum(fd.get(def.min));
+    const max = parseNum(fd.get(def.max));
+
+    const err = validateRange(min, max);
+    setErrors((prev) => ({ ...prev, [rangeKey]: err }));
   };
 
+  const validateAll = (form: HTMLFormElement) => {
+    const nextErrors: Record<string, string | null> = {};
+    for (const rangeKey of Object.keys(RANGE_DEFS)) {
+      const def = RANGE_DEFS[rangeKey as keyof typeof RANGE_DEFS];
+      const fd = new FormData(form);
+      const min = parseNum(fd.get(def.min));
+      const max = parseNum(fd.get(def.max));
+      nextErrors[rangeKey] = validateRange(min, max);
+    }
+    setErrors(nextErrors);
+    return nextErrors;
+  };
 
+  const focusFirstInvalid = (form: HTMLFormElement, nextErrors: Record<string, string | null>) => {
+    for (const rangeKey of Object.keys(RANGE_DEFS)) {
+      if (!nextErrors[rangeKey]) continue;
+      const def = RANGE_DEFS[rangeKey as keyof typeof RANGE_DEFS];
+      const el = form.elements.namedItem(def.min) as HTMLElement | null;
+      el?.focus();
+      break;
+    }
+  };
+
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+
+    // Mark all as touched so errors become visible
+    setTouched(Object.fromEntries(Object.keys(RANGE_DEFS).map((k) => [k, true])));
+
+    const nextErrors = validateAll(form);
+    const hasAnyError = Object.values(nextErrors).some(Boolean);
+
+    if (hasAnyError) {
+      focusFirstInvalid(form, nextErrors);
+      return;
+    }
+
+    const data = Object.fromEntries(new FormData(form));
+    console.log("OK submit:", data);
+  };
+
+  if (isLoading) return null;
   return (
     <div className="min-h-screen bg-dot-grid">
       <div className="mx-auto min-w-60 max-w-4xl px-6 sm:px-12 md:px-24 py-10">
@@ -225,24 +332,44 @@ function MenuPage() {
                 <div>
                   <Form.Root className="flex flex-col gap-2 mt-4" onSubmit={(event) => handleSubmit(event)}>
                     <RangeNumberField
+                      rangeKey="calories"
                       label="Calories (kcal)"
                       minName="caloriesMin"
                       maxName="caloriesMax"
+                      error={errors.calories}
+                      showError={Boolean(touched.calories)}
+                      onTouched={(k) => setTouched((prev) => ({ ...prev, [k]: true }))}
+                      onValidate={validateOne}
                     />
                     <RangeNumberField
+                      rangeKey="protein"
                       label="Protein (g)"
                       minName="proteinMin"
                       maxName="proteinMax"
+                      error={errors.protein}
+                      showError={Boolean(touched.protein)}
+                      onTouched={(k) => setTouched((prev) => ({ ...prev, [k]: true }))}
+                      onValidate={validateOne}
                     />
                     <RangeNumberField
+                      rangeKey="carbs"
                       label="Carbohydrates (g)"
                       minName="carbsMin"
                       maxName="carbsMax"
+                      error={errors.carbs}
+                      showError={Boolean(touched.carbs)}
+                      onTouched={(k) => setTouched((prev) => ({ ...prev, [k]: true }))}
+                      onValidate={validateOne}
                     />
                     <RangeNumberField
+                      rangeKey="fats"
                       label="Fats (g)"
                       minName="fatsMin"
                       maxName="fatsMax"
+                      error={errors.fats}
+                      showError={Boolean(touched.fats)}
+                      onTouched={(k) => setTouched((prev) => ({ ...prev, [k]: true }))}
+                      onValidate={validateOne}
                     />
 
                     <Accordion.Root type="multiple">
@@ -266,14 +393,24 @@ function MenuPage() {
                         <Accordion.Content forceMount className="accordion-content overflow-hidden data-[state=closed]:h-0 data-[state=open]:h-(--radix-accordion-content-height)">
                           <div className="flex flex-col gap-2 mt-1 mb-3">
                             <RangeNumberField
+                              rangeKey="sugars"
                               label="Sugars (g)"
                               minName="sugarMin"
                               maxName="sugarMax"
+                              error={errors.sugar}
+                              showError={Boolean(touched.sugar)}
+                              onTouched={(k) => setTouched((prev) => ({ ...prev, [k]: true }))}
+                              onValidate={validateOne}
                             />
                             <RangeNumberField
+                              rangeKey="sodium"
                               label="Sodium (mg)"
                               minName="sodiumMin"
                               maxName="sodiumMax"
+                              error={errors.sodium}
+                              showError={Boolean(touched.sodium)}
+                              onTouched={(k) => setTouched((prev) => ({ ...prev, [k]: true }))}
+                              onValidate={validateOne}
                             />
                           </div>
                         </Accordion.Content>
