@@ -30,31 +30,35 @@ def push_into_db(data):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-def fetch_menu_items(dining_hall_id = None, meal_period = None):
+def fetch_menu_items(dining_hall_id = None, meal_period = None, traits=[], allergens=[]):
     """
     Fetches all menu items from the Supabase database.
     
     Returns:
         list: A list of menu items.
     """
-    if dining_hall_id is None:
+    if dining_hall_id is None or meal_period is None:
         return []
-    if meal_period is None:
-        return []
-    
+
     est_now = datetime.now(ZoneInfo("America/New_York"))
     today_date_est = est_now.date().isoformat()
-    table_name = "menu_items"
+
+    q = (
+        supabase.table("menu_items")
+        .select("*")
+        .eq("date", "2025-12-27")
+        .eq("dining_hall_id", dining_hall_id)
+        .eq("meal_period", meal_period.lower())
+    )
+
+    for trait in traits:
+        q = q.contains("traits", [trait])
+    
+    for allergen in allergens:
+        q = q.not_.contains("allergens", [allergen])
+
     try:
-        response = (
-            supabase.table(table_name)
-            .select("*")
-            .eq("date", "2025-12-27")
-            .eq("dining_hall_id", dining_hall_id)
-            .eq("meal_period", meal_period.lower())
-            .execute()
-        )
-        return response.data
+        return q.execute().data
     except Exception as e:
         print(f"An error occurred: {e}")
         return []
@@ -63,7 +67,7 @@ def get_all_dining_halls_info():
     """
     Fetches all dining hall information.
     """
-
+    print("WEEEEEeeeee")
     try:
         response = (
             supabase.table("daily_hall_status")
@@ -79,7 +83,7 @@ def get_dining_hall_default_menu(dining_hall_id, meal_period):
     """
     Fetch specific (default) dining hall menu
     """
-
+    print("WEEEEEe")
     try:
         response = (
             supabase.table("menu_items")

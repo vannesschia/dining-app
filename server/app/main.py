@@ -12,15 +12,8 @@ import time
 from pydantic import BaseModel
 from app.lp import LPSolverResult, execute_lp_solver
 from fastapi.middleware.cors import CORSMiddleware
+from app.lp import MealRequest
 
-class MealRequest(BaseModel):
-    dining_hall_id: int
-    meal_period: str
-    calories_min: int
-    calories_max: int
-    protein_min: int
-    fat_max: int
-    carb_max: int
 
 class DiningHallMenuRequest(BaseModel):
     dining_hall_id: int
@@ -44,14 +37,24 @@ async def get_default_menu(id: int, meal_period: str):
 async def get_all_dining_halls():
     return get_all_dining_halls_info()
 
-@app.post("/api/optimize")
-async def optimize_meal(mealRequest: MealRequest) -> list[LPSolverResult]:
+@app.post("/optimize-meal")
+async def optimize_meal(meal_request: MealRequest) -> list[LPSolverResult]:
     return execute_lp_solver(
-        cal_min=mealRequest.calories_min,
-        cal_max=mealRequest.calories_max,
-        protein_min=mealRequest.protein_min,
-        fat_max=mealRequest.fat_max,
-        carb_max=mealRequest.carb_max
+        # cal_min=mealRequest.calories_min,
+        # cal_max=mealRequest.calories_max,
+        # protein_min=mealRequest.protein_min,
+        # protein_max=mealRequest.protein_max,
+        # fat_min=mealRequest.fat_min,
+        # fat_max=mealRequest.fat_max,
+        # carb_min=mealRequest.carb_min,
+        # carb_max=mealRequest.carb_max,
+        # sugars_min=mealRequest.sugars_min,
+        # sugars_max=mealRequest.sugars_max,
+        # sodium_min=mealRequest.sodium_min,
+        # sodium_max=mealRequest.sodium_max,
+        # traits=mealRequest.traits,
+        # allergens=mealRequest.allergens
+        meal_request
     )
 
 def process_dhall_data(dhall_data, hall_name, hall_id=None):

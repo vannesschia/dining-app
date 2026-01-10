@@ -26,11 +26,46 @@ class LPSolverResult(BaseModel):
     total_carbohydrate_g: int = 0
     total_fat_g: int = 0
 
-def execute_lp_solver(cal_min=CAL_MIN, cal_max=CAL_MAX, protein_min=PROTEIN_MIN, fat_max=FAT_MAX, carb_max=CARB_MAX):
+class MealRequest(BaseModel):
+    dining_hall_id: int
+    meal_period: str
+    calories_min: int
+    calories_max: int
+    protein_min: int | None = None
+    protein_max: int | None = None
+    fat_min: int | None = None
+    fat_max: int | None = None
+    carb_min: int | None = None
+    carb_max: int | None = None
+    sugars_min: int | None = None
+    sugars_max: int | None = None
+    sodium_min: int | None = None
+    sodium_max: int | None = None
+    traits: list[str] = []
+    allergens: list[str] = []
+
+def execute_lp_solver(
+        # cal_min=CAL_MIN, 
+        # cal_max=CAL_MAX, 
+        # protein_min=None, 
+        # protein_max=None, 
+        # fat_min=None, 
+        # fat_max=None, 
+        # carb_min=None,
+        # carb_max=None,
+        # sugars_min=None,
+        # sugars_max=None,
+        # sodium_min=None,
+        # sodium_max=None,
+        # traits=[],
+        # allergens=[]
+        mr: MealRequest
+      ):
+    print(mr)
     # -----------------------
     # 1) Fetch Data
     # -----------------------
-    offerings = fetch_menu_items(1, "lunch")
+    offerings = fetch_menu_items(1, "lunch", mr.traits, mr.allergens)
     # print(offerings)
 
     # -----------------------
@@ -89,11 +124,28 @@ def execute_lp_solver(cal_min=CAL_MIN, cal_max=CAL_MAX, protein_min=PROTEIN_MIN,
     fat = [x[o["id"]] * o["total_fat_g"] for o in offerings]
     carb = [x[o["id"]] * o["total_carbohydrate_g"] for o in offerings]
 
-    prob += pulp.lpSum(cal) >= cal_min, "cal_min"
-    prob += pulp.lpSum(cal) <= cal_max, "cal_max"
-    prob += pulp.lpSum(pro) >= protein_min, "protein_min"
-    prob += pulp.lpSum(fat) <= fat_max, "fat_max"
-    prob += pulp.lpSum(carb) <= carb_max, "carb_max"
+    prob += pulp.lpSum(cal) >= mr.calories_min, "calories_min"
+    prob += pulp.lpSum(cal) <= mr.calories_max, "calories_max"
+    if mr.protein_min:
+      prob += pulp.lpSum(pro) >= mr.protein_min, "protein_min"
+    if mr.protein_max:
+      prob += pulp.lpSum(pro) <= mr.protein_max, "protein_max"
+    if mr.fat_min:
+      prob += pulp.lpSum(fat) >= mr.fat_min, "fat_min"
+    if mr.fat_max:
+      prob += pulp.lpSum(fat) <= mr.fat_max, "fat_max"
+    if mr.carb_min:
+      prob += pulp.lpSum(carb) >= mr.carb_min, "carb_min"
+    if mr.carb_max:
+      prob += pulp.lpSum(carb) <= mr.carb_max, "carb_max"
+    if mr.sugars_min:
+      prob += pulp.lpSum(carb) <= mr.sugars_min, "sugars_min"
+    if mr.sugars_max:
+      prob += pulp.lpSum(carb) <= mr.sugars_max, "sugars_max"
+    if mr.sodium_min:
+      prob += pulp.lpSum(carb) <= mr.sodium_min, "sodium_min"
+    if mr.sodium_max:
+      prob += pulp.lpSum(carb) <= mr.sodium_max, "sodium_max"
     # -----------------------
     # 6) Diversity (Approach A): reuse penalty
     # -----------------------
