@@ -2,12 +2,6 @@ import pulp
 from app.query import fetch_menu_items
 from pydantic import BaseModel
 
-CAL_MIN = 900
-CAL_MAX = 1200
-PROTEIN_MIN = 60
-FAT_MAX = 60
-CARB_MAX = 150
-
 class MenuOption(BaseModel):
     name: str
     id: int
