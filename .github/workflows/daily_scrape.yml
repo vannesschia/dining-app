@@ -28,8 +28,9 @@ jobs:
 
       - name: Run Scraper Script
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_PROJECT_URL: ${{ secrets.SUPABASE_PROJECT_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          SUPABASE_ANON_API_KEY: ${{ secrets.SUPABASE_ANON_API_KEY }}
+          PYTHONPATH: . 
         run: |
-          python app/daily_scrape.py
+          python -m app.daily_scrape
