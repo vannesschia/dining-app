@@ -29,7 +29,7 @@ def get_soup(source: str, is_local=False):
             # Grab HTML
             html_content = page.content()
             browser.close()
-        return BeautifulSoup(html_content, "html.parser"), source
+        return BeautifulSoup(html_content, "html.parser")
 
 def split_measurement(s: str):
     """
@@ -44,7 +44,7 @@ def split_measurement(s: str):
         return value, unit
     return None, None
 
-def scrape_dining_hall(soup: BeautifulSoup, url: str = " "):
+def scrape_dining_hall(soup: BeautifulSoup, url: str = " ", name: str = " "):
     """
     Launches a browser, visits the URL, and returns a list of food items.
     """
@@ -160,14 +160,16 @@ def scrape_dining_hall(soup: BeautifulSoup, url: str = " "):
                                             # print(f"% Daily Value: {nutrient_percentage}")
                                             nutrition_info[prefix]['daily_value'] = float(nutrient_percentage) if nutrient_percentage != '' else 0.0
                                 info[current_section][st][item_name]['nutrition'] = nutrition_info
-
-    base_path = os.path.basename(url).replace('.html', '')
-    data_end_path = "/Users/wenxi/Documents/CodingProjects/dining-app/server/app/data/" + base_path + ".json"
-    with open(data_end_path, "w") as json_file:
-        json.dump(info, json_file, indent=4)
-    print(f"Information successfully written to {data_end_path}")
+    
+    # base_path = os.path.basename(url).replace('.html', '')
+    # base_path = name
+    # data_end_path = "/Users/wenxi/Documents/CodingProjects/dining-app/server/app/data/" + base_path + ".json"
+    # with open(data_end_path, "w") as json_file:
+    #     json.dump(info, json_file, indent=4)
+    # print(f"Information successfully written to {data_end_path}")
     # pprint.pprint(info)
-    return {"status": "success"}
+    # return {"status": "success"}
+    return info
 
 # --- TEST BLOCK ---
 if __name__ == "__main__":

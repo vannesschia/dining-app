@@ -243,12 +243,12 @@ function MenuPage() {
   const formattedDate = dateInEST.toLocaleString("en-US", options);
 
   const RANGE_DEFS = {
-    calories: { min: "caloriesMin", max: "caloriesMax" },
-    protein: { min: "proteinMin", max: "proteinMax" },
-    carbs: { min: "carbsMin", max: "carbsMax" },
-    fats: { min: "fatsMin", max: "fatsMax" },
-    sugar: { min: "sugarMin", max: "sugarMax" },
-    sodium: { min: "sodiumMin", max: "sodiumMax" },
+    calories: { min: "calories_min", max: "calories_max" },
+    protein: { min: "protein_min", max: "protein_max" },
+    carbs: { min: "carb_min", max: "carb_max" },
+    fats: { min: "fat_min", max: "fat_max" },
+    sugar: { min: "sugars_min", max: "sugars_max" },
+    sodium: { min: "sodium_min", max: "sodium_max" },
   } as const;
 
   function parseNum(v: FormDataEntryValue | null) {
@@ -361,7 +361,11 @@ function MenuPage() {
     optimizeMutation.mutate(payload);
   }
 
-  if (isLoading) return null;
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-dot-grid"></div>
+    );
+  }
   if (isError) return <div>{String(error)}</div>;
   return (
     <div className="min-h-screen bg-dot-grid">
@@ -446,8 +450,8 @@ function MenuPage() {
                     <RangeNumberField
                       rangeKey="carbs"
                       label="Carbohydrates (g)"
-                      minName="carbs_min"
-                      maxName="carbs_max"
+                      minName="carb_min"
+                      maxName="carb_max"
                       error={errors.carbs}
                       showError={Boolean(touched.carbs)}
                       onTouched={(k) => setTouched((prev) => ({ ...prev, [k]: true }))}
@@ -456,8 +460,8 @@ function MenuPage() {
                     <RangeNumberField
                       rangeKey="fats"
                       label="Fats (g)"
-                      minName="fats_min"
-                      maxName="fats_max"
+                      minName="fat_min"
+                      maxName="fat_max"
                       error={errors.fats}
                       showError={Boolean(touched.fats)}
                       onTouched={(k) => setTouched((prev) => ({ ...prev, [k]: true }))}

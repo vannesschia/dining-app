@@ -46,7 +46,7 @@ def fetch_menu_items(dining_hall_id = None, meal_period = None, traits=[], aller
     q = (
         supabase.table("menu_items")
         .select("*")
-        .eq("date", "2025-12-27")
+        .eq("date", today_date_est)
         .eq("dining_hall_id", dining_hall_id)
         .eq("meal_period", meal_period.lower())
     )
@@ -67,7 +67,6 @@ def get_all_dining_halls_info():
     """
     Fetches all dining hall information.
     """
-    print("WEEEEEeeeee")
     try:
         response = (
             supabase.table("daily_hall_status")
@@ -83,7 +82,6 @@ def get_dining_hall_default_menu(dining_hall_id, meal_period):
     """
     Fetch specific (default) dining hall menu
     """
-    print("WEEEEEe")
     try:
         response = (
             supabase.table("menu_items")

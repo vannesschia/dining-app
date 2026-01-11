@@ -48,7 +48,11 @@ export default function App() {
     setSelectedHall(null);
   }
 
-  if (isLoading) return null;
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-dot-grid"></div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-dot-grid flex flex-col items-center gap-8 pt-20 md:pt-40">
