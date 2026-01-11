@@ -2,6 +2,12 @@ import pulp
 from app.query import fetch_menu_items
 from pydantic import BaseModel
 
+CAL_MIN = 900
+CAL_MAX = 1200
+PROTEIN_MIN = 60
+FAT_MAX = 60
+CARB_MAX = 150
+
 class MenuOption(BaseModel):
     name: str
     id: int
@@ -55,12 +61,12 @@ def execute_lp_solver(
         # allergens=[]
         mr: MealRequest
       ):
-    print(mr)
+    print(f'Generating meal options based on user contraints: {mr}')
     # -----------------------
     # 1) Fetch Data
     # -----------------------
-    offerings = fetch_menu_items(1, "lunch", mr.traits, mr.allergens)
-    # print(offerings)
+    offerings = fetch_menu_items(mr.dining_hall_id, mr.meal_period, mr.traits, mr.allergens)
+    print(f'Evaluating meal options from today\' menu: {offerings}')
 
     # -----------------------
     # 2) Setup Solver

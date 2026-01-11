@@ -1,6 +1,5 @@
-from fastapi import FastAPI
 from app.scraper import scrape_dining_hall, get_soup
-from app.utils import flatten_station_items, get_configured_halls
+from app.utils import flatten_station_items
 from app.ai import analyze_menu_for_ai
 from app.prepare import prepare_solver_data
 from app.query import push_into_db, get_all_dining_halls_info
