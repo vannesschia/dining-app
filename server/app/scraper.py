@@ -17,7 +17,7 @@ def get_soup(source: str, is_local=False):
     else:
         with sync_playwright() as p:
             # Change to headless=True when running in production
-            browser = p.chromium.launch(headless=False) 
+            browser = p.chromium.launch(headless=True) 
             page = browser.new_page()
             
             page.goto(source)
