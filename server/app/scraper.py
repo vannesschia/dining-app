@@ -16,17 +16,17 @@ def get_soup(source: str, is_local=False):
             return BeautifulSoup(f.read(), "html.parser")
     else:
         with sync_playwright() as p:
-            # Change to headless=True when running in production
             browser = p.chromium.launch(headless=True) 
-            page = browser.new_page()
+            user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            context = browser.new_context(
+                user_agent=user_agent,
+                viewport={'width': 1920, 'height': 1080}
+            )
+            page = context.new_page()
+            page.goto(source, wait_until="networkidle")
             
-            page.goto(source)
-            
-            # Wait for the specific element that holds the menu to load
-            # We'll wait for the body just to be safe for this test
             page.wait_for_selector("body")
             
-            # Grab HTML
             html_content = page.content()
             browser.close()
         return BeautifulSoup(html_content, "html.parser")
