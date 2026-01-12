@@ -25,7 +25,7 @@ def main():
           soup = get_soup(hall['url'])
           dhall_data = scrape_dining_hall(soup, url=str(hall['url']), name=str(hall['name']))
           print(dhall_data)
-          # process_dhall_data(dhall_data, hall['name'], hall['id'])
+          process_dhall_data(dhall_data, hall['name'], hall['id'])
     except Exception as e:
         print(f"Error occurred: {e}")
         sys.exit(1)
