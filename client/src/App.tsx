@@ -50,7 +50,29 @@ export default function App() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-dot-grid"></div>
+      <div className="min-h-screen bg-dot-grid flex flex-col items-center gap-8 pt-20 md:pt-40">
+        <div className="mx-auto w-fit mb-16">
+          <div className="flex items-center justify-center gap-1 text-fluid-4xl tracking-tight leading-tight">
+            <BananaIcon className="w-[1em] h-[1em] text-yellow-500" />
+            <h1 className="font-bold">FuelStack</h1>
+          </div>
+
+          <div className="flex justify-between gap-2 items-end text-black">
+            <p className="text-fluid-lg max-w-[clamp(15ch,25vw,25ch)] text-balance leading-none">
+              Plan your meals in an instant @ <span className="font-umich leading-none">M</span>
+            </p>
+            <Button scheme="dark">
+              <NavLink to="/about" end>
+                Learn More
+              </NavLink>
+            </Button>
+          </div>
+        </div>
+
+        <div className="flex items-center">
+          <div className="w-[2em] h-[2em] border-2 border-black border-t-transparent rounded-full animate-spin mr-1"></div>
+        </div>
+      </div>
     );
   }
 

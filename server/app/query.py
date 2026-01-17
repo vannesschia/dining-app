@@ -30,6 +30,18 @@ def push_into_db(data):
     except Exception as e:
         print(f"An error occurred: {e}")
 
+def delete_from_db():
+    table_name = "menu_items"
+    try:
+        response = (
+            supabase.table(table_name)
+            .delete("*")
+            .execute(count="exact")
+        )
+        print("Data deleted successfully:", response.count)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
 def fetch_menu_items(dining_hall_id = None, meal_period = None, traits=[], allergens=[]):
     """
     Fetches all menu items from the Supabase database.
@@ -82,11 +94,15 @@ def get_dining_hall_default_menu(dining_hall_id, meal_period):
     """
     Fetch specific (default) dining hall menu
     """
+
+    est_now = datetime.now(ZoneInfo("America/New_York"))
+    today_date_est = est_now.date().isoformat()
+
     try:
         response = (
             supabase.table("menu_items")
             .select("*")
-            .eq("date", "2025-12-27")
+            .eq("date", today_date_est)
             .eq("dining_hall_id", dining_hall_id)
             .eq("meal_period", meal_period)
             .eq("convenience_score", 1)

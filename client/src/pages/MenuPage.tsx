@@ -363,7 +363,9 @@ function MenuPage() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-dot-grid"></div>
+      <div className="min-h-screen bg-dot-grid flex items-center justify-center">
+        <div className="w-[2em] h-[2em] border-2 border-black border-t-transparent rounded-full animate-spin mr-1"></div>
+      </div>
     );
   }
   if (isError) return <div>{String(error)}</div>;
