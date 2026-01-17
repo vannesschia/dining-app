@@ -7,7 +7,7 @@ from app.lp import MealRequest
 
 
 class DiningHallMenuRequest(BaseModel):
-    dining_hall_id: int
+    dining_hall_id: intm
     meal_period: str
 
 app = FastAPI(
@@ -16,7 +16,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-origins = ["http://localhost:5173", "https://dining-app-zeta.vercel.app/"]
+origins = ["http://localhost:5173", "https://dining-app-zeta.vercel.app"]
 
 app.add_middleware(
     CORSMiddleware,
