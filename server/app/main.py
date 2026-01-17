@@ -7,7 +7,7 @@ from app.lp import MealRequest
 
 
 class DiningHallMenuRequest(BaseModel):
-    dining_hall_id: intm
+    dining_hall_id: int
     meal_period: str
 
 app = FastAPI(
