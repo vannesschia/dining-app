@@ -14,10 +14,7 @@ type MealPeriod = "breakfast" | "lunch" | "dinner";
 type DiningHall = {
   id: number;
   name: string;
-  // Option A: API gives you this directly
   meals_today?: MealPeriod[];
-  // Option B: you might have some other structure instead
-  // meals?: Array<{ period: MealPeriod; ... }>;
 };
 
 function titleCase(p: string) {
@@ -26,7 +23,7 @@ function titleCase(p: string) {
 
 export default function App() {
   const [selectedHall, setSelectedHall] = useState<DiningHall | null>(null);
-  const [selectedPeriod, setSelectedPeriod] = useState<MealPeriod | null>(null);
+  // const [selectedPeriod, setSelectedPeriod] = useState<MealPeriod | null>(null);
 
   const { data, isLoading } = useQuery({
     queryKey: ["dining-halls"],
@@ -44,7 +41,7 @@ export default function App() {
   }, [selectedHall]);
   
   function goBackOne() {
-    setSelectedPeriod(null);
+    // setSelectedPeriod(null);
     setSelectedHall(null);
   }
 
@@ -125,7 +122,6 @@ export default function App() {
                 className="w-full justify-center py-6 font-bold"
                 onClick={() => {
                   setSelectedHall(dhall);
-                  setSelectedPeriod(null);
                 }}
                 scheme="light"
               >
@@ -139,7 +135,6 @@ export default function App() {
                 <Button
                   className="w-full justify-center py-6 font-bold"
                   scheme="light"
-                  onClick={() => setSelectedPeriod(p)}
                 >
                   {titleCase(p)}
                 </Button>
