@@ -16,6 +16,7 @@ import Badge from "../components/Badge";
 import Button from "../components/Button";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { API_BASE } from "../lib/api";
 
 type SwitchFieldProps = {
   label: string;
@@ -196,13 +197,13 @@ function MenuPage() {
 
   const optimizeMutation = useMutation({
     mutationFn: (payload: any) =>
-      postJSON<OptimizeResponse>("/api/optimize-meal", payload),
+      postJSON<OptimizeResponse>(`${API_BASE}/optimize-meal`, payload),
   });
 
   const { data = [], isLoading, isError, error } = useQuery({
     queryKey: ["meals", hid, period],
     queryFn: async () => {
-      const res = await fetch(`/api/menu?id=${hid}&meal_period=${period}`);
+      const res = await fetch(`${API_BASE}/menu?id=${hid}&meal_period=${period}`);
       if (!res.ok) {
         const text = await res.text();
         throw new Error(`HTTP ${res.status}: ${text}`);

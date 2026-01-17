@@ -8,6 +8,7 @@ import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { useMemo, useState } from "react";
 import { CornerDownLeft } from "lucide-react";
+import { API_BASE } from "./lib/api";
 
 type MealPeriod = "breakfast" | "lunch" | "dinner";
 
@@ -27,7 +28,7 @@ export default function App() {
 
   const { data, isLoading } = useQuery({
     queryKey: ["dining-halls"],
-    queryFn: () => apiGet<DiningHall[]>("/api/get-dining-halls"),
+    queryFn: () => apiGet<DiningHall[]>(`${API_BASE}/get-dining-halls`),
   });
   console.log(data)
   console.log(data?.filter(dhall => dhall.meals_today?.length))
