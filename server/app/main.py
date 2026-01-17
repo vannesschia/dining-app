@@ -16,7 +16,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-origins = ["http://localhost:5173"]
+origins = ["http://localhost:5173", "https://dining-app-zeta.vercel.app/"]
 
 app.add_middleware(
     CORSMiddleware,
